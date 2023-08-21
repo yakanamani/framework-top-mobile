@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf1952ae-b22a-499f-8900-b5b878a50ab0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AppiumCucumber_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/CapabilitiesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/GlobalParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/PropertyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/ServerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrameworkTop/utils/VideoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/MenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/ProductDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/pages/SettingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/MyFirstDeviceTestngRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/MyFourthDeviceTestngRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/MySecondDeviceTestngRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/MyThirdDeviceTestngRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/MytestngRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/runners/RunnerBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/stepdef/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/stepdef/LoginStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameworkTop/stepdef/ProductStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Products.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AntDesign.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/AppIcon60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Base.lproj/LaunchScreen.nib/objects-13.0+.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Base.lproj/LaunchScreen.nib/runtime.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Entypo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/EvilIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/FontAwesome.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/FontAwesome5_Brands.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/FontAwesome5_Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/FontAwesome5_Solid.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Fontisto.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Foundation.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTAutomationSupport.framework/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTAutomationSupport.framework/version.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTest.framework/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTest.framework/XCTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTest.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTest.framework/en.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/XCTest.framework/version.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/libXCTestBundleInject.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Frameworks/libXCTestSwiftSupport.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MaterialIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-100.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-100Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-300.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-300Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-700Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans-900Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans_500.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans_500_Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans_700.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/MuseoSans_900.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Octicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PkgInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PlugIns/SwagLabsMobileAppTests.xctest.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PlugIns/SwagLabsMobileAppTests.xctest.dSYM/Contents/Resources/DWARF/SwagLabsMobileAppTests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PlugIns/SwagLabsMobileAppTests.xctest/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PlugIns/SwagLabsMobileAppTests.xctest/SwagLabsMobileAppTests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/PlugIns/SwagLabsMobileAppTests.xctest/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/SimpleLineIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/SwagLabsMobileApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/Zocial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/airbnb-star-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/airbnb-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-ratings/src/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/AntDesign.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Entypo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/EvilIcons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Feather.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/FontAwesome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Foundation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Ionicons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/MaterialCommunityIcons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/MaterialIcons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Octicons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/SimpleLineIcons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-native-vector-icons/glyphmaps/Zocial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon-mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/bike-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/bolt-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/filter-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/footer-swagbot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/login-bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/menu-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/menu-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/menu-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/pony-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/red-onesie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/red-tatt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/sauce-backpack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/sauce-pullover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/sl-404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/surfing-sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/swag-labs-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/toggle-grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/img/toggle-row.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/assets/src/js/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apps/SwagLabsMobileApp.app/main.jsbundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/Arborescence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/run_from_IDE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UHtGDRDu0ZweJmIiJ7ZFYGrtZj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/nana.acka/Documents/GitHub/framework-top-mobile",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="framework-top-mobile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="framework-top-mobile" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf1952ae-b22a-499f-8900-b5b878a50ab0" name="Changes" comment="" />
+      <created>1692608235863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692608235863</updated>
+    </task>
+    <servers />
+  </component>
+</project>
