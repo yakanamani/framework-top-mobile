@@ -1,0 +1,32 @@
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:20.320 PropertyManager:17 - loading config properties
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:20.340 ServerManager:23 - starting appium server
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:27.407 ServerManager:33 - appium server started
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:27.422 DriverManager:28 - initializing appium driver
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:27.436 CapabilitiesManager:16 - getting capabilities
+[iOS_Nana_2 INFO ] 2023-08-21 09:07:27.438 CapabilitiesManager:40 - appUrl is/Users/nana.acka/Documents/GitHub/framework-top-mobile/src/test/resources/apps/SwagLabsMobileApp.app
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:26.568 DriverManager:40 - Driver is initialized
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:30.099 BasePage:75 - login with invalidUsername
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:33.065 BasePage:75 - password is secret_sauce
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:34.149 BasePage:58 - press login button
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:36.125 BasePage:101 - error text is - Username and password do not match any user in this service.
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:36.448 VideoManager:36 - video path: test-output/2023-08-21/iOS_Nana_2/Videos/Login with invalid user name.mp4
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:39.491 BasePage:75 - login with standard_user
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:42.552 BasePage:75 - password is invalidPassword
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:43.721 BasePage:58 - press login button
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:45.862 BasePage:101 - error text is - Username and password do not match any user in this service.
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:46.198 VideoManager:36 - video path: test-output/2023-08-21/iOS_Nana_2/Videos/Login with invalid password.mp4
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:48.813 BasePage:75 - login with standard_user
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:51.800 BasePage:75 - password is secret_sauce
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:52.834 BasePage:58 - press login button
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:55.133 BasePage:101 - product page title is - PRODUCTS
+[iOS_Nana_2 INFO ] 2023-08-21 09:08:55.451 VideoManager:36 - video path: test-output/2023-08-21/iOS_Nana_2/Videos/Login with valid user name and password.mp4
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:03.235 BasePage:75 - login with standard_user
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:05.946 BasePage:75 - password is secret_sauce
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:06.991 BasePage:58 - press login button
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:10.540 BasePage:117 - product title is: Sauce Labs Bolt T-ShirtSauce Labs Bolt T-Shirt
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:11.973 VideoManager:36 - video path: test-output/2023-08-21/iOS_Nana_2/Videos/Validate product info on Products page.mp4
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:17.706 BasePage:75 - login with standard_user
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:20.520 BasePage:75 - password is secret_sauce
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:21.553 BasePage:58 - press login button
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:25.070 BasePage:117 - product title is: Sauce Labs BackpackSauce Labs Backpack
+[iOS_Nana_2 INFO ] 2023-08-21 09:09:26.503 VideoManager:36 - video path: test-output/2023-08-21/iOS_Nana_2/Videos/Validate product info on Products page.mp4
