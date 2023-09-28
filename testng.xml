@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name=" Framework Top Mobile Suite" parallel="tests">
+
+    <test name="Tests on first device">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="pixel_6"/>
+        <parameter name="virtualDevice" value="true"/>
+        <parameter name="systemPort" value="10001"/>
+        <parameter name="chromeDriverPort" value="11001"/>
+        <classes>
+            <class name="FrameworkTop.runners.MyFirstDeviceTestngRunnerTest"/>
+        </classes>
+    </test>
+   <test name="Tests on second device">
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="B6B097FE-864D-483D-861C-21726B44E5B1"/>
+        <parameter name="deviceName" value="Nana"/>
+        <parameter name="virtualDevice" value="true"/>
+        <parameter name="wdaLocalPort" value="10002"/>
+        <parameter name="webkitDebugProxyPort" value="11002"/>
+        <classes>
+            <class name="FrameworkTop.runners.MySecondDeviceTestngRunnerTest"/>
+        </classes>
+    </test>
+   <test name="Tests on third device">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="deviceName" value="pixel_6_pro"/>
+        <parameter name="virtualDevice" value="true"/>
+        <parameter name="systemPort" value="10003"/>
+        <parameter name="chromeDriverPort" value="11003"/>
+        <classes>
+            <class name="FrameworkTop.runners.MyThirdDeviceTestngRunnerTest"/>
+        </classes>
+    </test>
+    <test name="Tests on fourth device">
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="21A3463A-034C-4948-B7F5-E6A421BE29A3"/>
+        <parameter name="deviceName" value="Nana_2"/>
+        <parameter name="virtualDevice" value="true"/>
+        <parameter name="wdaLocalPort" value="10004"/>
+        <parameter name="webkitDebugProxyPort" value="11004"/>
+        <classes>
+            <class name="FrameworkTop.runners.MyFourthDeviceTestngRunnerTest"/>
+        </classes>
+    </test>
+    <!--
+    <test name="Tests on fourth device">
+        <parameter name="platformName" value="Android_or_iOS"/>
+        <parameter name="udid" value="simulator_udid"/>
+        <parameter name="deviceName" value="simulator_device_name"/>
+        <parameter name="virtualDevice" value="true_or_false"/>
+        <parameter name="wdaLocalPort" value="10004"/>
+        <parameter name="webkitDebugProxyPort" value="11004"/>
+        <classes>
+            <class name="FrameworkTop.runners.MyFourthDeviceTestngRunnerTest"/>
+        </classes>
+    </test>
+    -->
+</suite>
