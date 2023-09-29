@@ -42,37 +42,12 @@ public class ServerManager {
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
                 .usingAnyFreePort()
                 .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
-                .withTimeout(Duration.ofSeconds(180))
+                .withTimeout(Duration.ofSeconds(240))
                 .withLogFile(new File("test-output" + File.separator + LocalDate.now() + File.separator
                         + params.getPlatformName() + "_" + params.getDeviceName() + File.separator + "logs"
                         + File.separator + "Server.log")));
 
     }
 
-    public AppiumDriverLocalService WindowsGetAppiumService() {
-        GlobalParams params = new GlobalParams();
-        return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
-                .usingAnyFreePort()
-                .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
-                .withLogFile(new File(params.getPlatformName() + "_"
-                        + params.getDeviceName() + File.separator + utils.dateTime() + File.separator + "Server.log")));
-    }
 
-    public AppiumDriverLocalService MacGetAppiumService() {
-        GlobalParams params = new GlobalParams();
-        //HashMap<String, String> environment = new HashMap<String, String>();
-        //environment.put("PATH", "/Users/nana.acka/Library/Android/sdk/tools/bin:/Users/nana.acka/Library/Android/sdk/tools:/Users/nana.acka/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/nodejs/bin:/opt/homebrew/bin:/usr/local/bin:/opt/homebrew/bin/ffmpeg" + System.getenv("PATH"));
-        //environment.put("ANDROID_HOME", "/Users/nana.acka/Library/Android/sdk");
-        //environment.put("JAVA_HOME", "/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home");
-        return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
-                //.usingDriverExecutable(new File("/usr/local/bin/node"))
-                //.withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
-                .usingAnyFreePort()
-                .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
-                //.withEnvironment(environment)
-                .withLogFile(new File("test-output" + File.separator + LocalDate.now() + File.separator
-                        + params.getPlatformName() + "_" + params.getDeviceName() + File.separator + "logs"
-                        + File.separator + "Server.log")));
-
-    }
 }

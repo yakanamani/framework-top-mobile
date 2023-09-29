@@ -9,8 +9,8 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="deviceName" value="pixel_6"/>
         <parameter name="virtualDevice" value="true"/>
-        <parameter name="systemPort" value="10001"/>
-        <parameter name="chromeDriverPort" value="11001"/>
+        <parameter name="systemPort" value="10005"/>
+        <parameter name="chromeDriverPort" value="11005"/>
         <classes>
             <class name="FrameworkTop.runners.MyFirstDeviceTestngRunnerTest"/>
         </classes>
@@ -31,8 +31,8 @@
         <parameter name="udid" value="emulator-5556"/>
         <parameter name="deviceName" value="pixel_6_pro"/>
         <parameter name="virtualDevice" value="true"/>
-        <parameter name="systemPort" value="10003"/>
-        <parameter name="chromeDriverPort" value="11003"/>
+        <parameter name="systemPort" value="10006"/>
+        <parameter name="chromeDriverPort" value="11006"/>
         <classes>
             <class name="FrameworkTop.runners.MyThirdDeviceTestngRunnerTest"/>
         </classes>
