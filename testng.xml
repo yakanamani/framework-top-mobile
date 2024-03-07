@@ -17,7 +17,7 @@
     </test>
    <test name="Tests on second device">
         <parameter name="platformName" value="iOS"/>
-        <parameter name="udid" value="B6B097FE-864D-483D-861C-21726B44E5B1"/>
+        <parameter name="udid" value="5D87C5DC-10EB-4056-955E-E0AE6118E0A7"/>
         <parameter name="deviceName" value="Nana"/>
         <parameter name="virtualDevice" value="true"/>
         <parameter name="wdaLocalPort" value="10002"/>
@@ -29,17 +29,17 @@
    <test name="Tests on third device">
         <parameter name="platformName" value="Android"/>
         <parameter name="udid" value="emulator-5556"/>
-        <parameter name="deviceName" value="pixel_6_pro"/>
+        <parameter name="deviceName" value="pixel_7_pro_-_android_11"/>
         <parameter name="virtualDevice" value="true"/>
-        <parameter name="systemPort" value="10006"/>
-        <parameter name="chromeDriverPort" value="11006"/>
+        <parameter name="systemPort" value="10008"/>
+        <parameter name="chromeDriverPort" value="11008"/>
         <classes>
             <class name="FrameworkTop.runners.MyThirdDeviceTestngRunnerTest"/>
         </classes>
     </test>
     <test name="Tests on fourth device">
         <parameter name="platformName" value="iOS"/>
-        <parameter name="udid" value="21A3463A-034C-4948-B7F5-E6A421BE29A3"/>
+        <parameter name="udid" value="07D85CFD-690A-4931-BE5E-7974EB6A779A"/>
         <parameter name="deviceName" value="Nana_2"/>
         <parameter name="virtualDevice" value="true"/>
         <parameter name="wdaLocalPort" value="10004"/>
